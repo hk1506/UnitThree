@@ -174,3 +174,8 @@ print(ttest_ind(sample2, sample1, equal_var=False))
 Ttest_indResult(statistic=11.083987229905155, pvalue=3.347454295731432e-22)
 
 ​
+
+# Lesson 3 Part II Answers
+The mean and standard deviation change. 
+The p-value increased as the samples became more alike. But the t-value decreased
+Yes, they do. According to CLT, it should remain accurate as long as the size of the sample is large. 
