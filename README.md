@@ -35,26 +35,27 @@ np.mean(bradybunch['age'])
 #(values,counts)=np.unique(bradybunch['age'],return_counts=True)
 #ind = np.argmax(counts)
 #values[ind]
-9.0
+
 
 np.median(bradybunch['age'])
-10.0
+
 
 (values,counts)=np.unique(bradybunch['age'],return_counts=True)
 ind = np.argmax(counts)
 values[ind]
-1
+
 
 bradybunch['age'].var()
-18.0
+
 
 np.std(bradybunch['age'],ddof=1)
-4.242640687119285
+
 
 np.std(bradybunch['age'] ,ddof=1) / np.sqrt(len(bradybunch['age']))
-1.6035674514745462
 
-#Lesson 3
+
+
+# Lesson 3
 import numpy as np
 import matplotlib.pyplot as plt
 var1 = np.random.normal(5,.5, 100)
@@ -160,11 +161,6 @@ plt.hist(sample1, alpha=0.5, label='sample 1')
 plt.hist(sample2, alpha=0.5, label='sample 2') 
 plt.legend(loc='upper right') 
 plt.show()
-1.984
-1.2123299880808032
-4.966
-1.5429983797787994
-2.982
 
 
 pop1 = np.random.binomial(10, 0.3, 10000)
