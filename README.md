@@ -1,6 +1,7 @@
 # UnitThree
 DescriptiveStats
 
+# Lesson 1
 import pandas as pd
 import numpy as np
 
@@ -53,6 +54,7 @@ np.std(bradybunch['age'],ddof=1)
 np.std(bradybunch['age'] ,ddof=1) / np.sqrt(len(bradybunch['age']))
 1.6035674514745462
 
+#Lesson 3
 import numpy as np
 import matplotlib.pyplot as plt
 var1 = np.random.normal(5,.5, 100)
